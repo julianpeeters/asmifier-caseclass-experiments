@@ -1,12 +1,12 @@
 import java.io._
 import scala.io._
+
 object dumpSorter extends App{
   case class dynamicClass
   case class cls
   case class module
   
-  class step 
-  class visitClass extends step  
+
 
   
   val directory = new File("entire_dumps")
@@ -22,13 +22,30 @@ object dumpSorter extends App{
     splitsArray <- splitsArrays
   } yield {Stream.continually(splitsArray._1).zip(splitsArray._2)}
 
-val steps = List("visit(", "x", "h")
+  val steps = List("visit(", "x", "h")
 
-//val g = for{ 
-//step <- steps
-val grouped = filenameAndSplitStreams.toList.flatMap(n=>n).map(m=>m).groupBy(o => o._2.contains("h") ).filter(p => p._1 == true)
-//} yield group
-println(grouped.values)
+val listOfMaps = for{ 
+step <- steps
+  val grouped = filenameAndSplitStreams.toList
+    .flatMap(n=>n).groupBy(o =>o._2.contains(step)).filter(p => p._1 == true)//groupBy groups by boolean, filter for hits
+    .map(q => (step->q._2)) //re-label the boolean key to the query, resulting in a map from query to a list of hits
+} yield grouped
+println(listOfMaps)
+//println(filenameAndSplitStreams.foreach(println))
+  //println(grouped
+val res = for { map <- listOfMaps
+              //  steps <- map.values
+          } yield { 
 
-println(grouped.values.last.foreach(println))
+//TODO for ( (k,v) <- map)
+map.foreach(q => Some(new File(q._1)).foreach(r => r.mkdir))
+//listOfMaps.foreach(p => p.foreach(q => Some(new File(q._1)).foreach(r => r.mkdir)))
+map.foreach(v => Some(new PrintWriter(v._1 + "/" + v._2(0)._1)).foreach{s => s.write(v._2(0)._2); s.close})
+//Some(new PrintWriter(steps._1 + "/name")).foreach{s => s.write("hello world"); s.close}
+}
+//res
+println(res)
+//println(res)
+//"echo hello world" #> new java.io.File("example.txt") !
+//println(grouped.values.foreach(println))
 }
