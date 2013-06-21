@@ -1,7 +1,7 @@
 import java.io._
 import scala.io._
 
-object dumpSorter extends App{
+object dumpSorter {
   case class dynamicClass
   case class cls
   case class module
@@ -15,14 +15,14 @@ object dumpSorter extends App{
   val splitsArrays = for {
     file <- files if file.isFile
     val source = Source.fromFile(file)
-    val splitsArray = source.mkString.split('o')     
+    val splitsArray = source.mkString.split("\\}\\{")     
   } yield {source.close(); (file.getName, splitsArray)}
 
   val filenameAndSplitStreams = for { //one stream per file, the tuple being (filename, split)
     splitsArray <- splitsArrays
   } yield {Stream.continually(splitsArray._1).zip(splitsArray._2)}
 
-  val steps = List("visit(", "x", "h")
+  val steps = List("visit(", "productArity", "h")
 
 val listOfMaps = for{ 
 step <- steps
