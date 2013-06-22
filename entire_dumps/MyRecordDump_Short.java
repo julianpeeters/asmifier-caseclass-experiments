@@ -1,15 +1,15 @@
 [0m[[0minfo[0m] [0mLoading global plugins from /home/julianpeeters/.sbt/plugins[0m
 [0m[[0minfo[0m] [0mSet current project to default-22f0e6 (in build file:/home/julianpeeters/asmifier-caseclass-experiments/)[0m
-[0m[[32msuccess[0m] [0mTotal time: 0 s, completed Jun 21, 2013 12:35:05 AM[0m
+[0m[[32msuccess[0m] [0mTotal time: 0 s, completed Jun 21, 2013 10:15:09 PM[0m
 [0m[[0minfo[0m] [0mLoading global plugins from /home/julianpeeters/.sbt/plugins[0m
 [0m[[0minfo[0m] [0mSet current project to default-22f0e6 (in build file:/home/julianpeeters/asmifier-caseclass-experiments/)[0m
 [0m[[0minfo[0m] [0mUpdating {file:/home/julianpeeters/asmifier-caseclass-experiments/}default-22f0e6...[0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.2 ...[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
-[0m[[0minfo[0m] [0mCompiling 3 Scala sources to /home/julianpeeters/asmifier-caseclass-experiments/target/scala-2.9.2/classes...[0m
+[0m[[0minfo[0m] [0mCompiling 4 Scala sources to /home/julianpeeters/asmifier-caseclass-experiments/target/scala-2.9.2/classes...[0m
 [0m[[33mwarn[0m] [0mthere were 3 deprecation warnings; re-run with -deprecation for details[0m
 [0m[[33mwarn[0m] [0mone warning found[0m
-[0m[[32msuccess[0m] [0mTotal time: 14 s, completed Jun 21, 2013 12:35:23 AM[0m
+[0m[[32msuccess[0m] [0mTotal time: 15 s, completed Jun 21, 2013 10:15:28 PM[0m
 import java.util.*;
 import org.objectweb.asm.*;
 import org.objectweb.asm.attrs.*;
