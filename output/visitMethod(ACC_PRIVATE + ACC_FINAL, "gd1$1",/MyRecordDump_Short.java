@@ -1,4 +1,5 @@
-visitMethod(ACC_PRIVATE + ACC_FINAL, "gd1$1", "(S)Z", null, null);
+
+mv = cw.visitMethod(ACC_PRIVATE + ACC_FINAL, "gd1$1", "(S)Z", null, null);
 mv.visitCode();
 mv.visitVarInsn(ILOAD, 1);
 mv.visitVarInsn(ALOAD, 0);
@@ -14,6 +15,3 @@ mv.visitLabel(l1);
 mv.visitInsn(IRETURN);
 mv.visitMaxs(2, 2);
 mv.visitEnd();
-}
-{
-mv

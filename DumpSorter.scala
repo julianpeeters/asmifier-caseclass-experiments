@@ -13,7 +13,8 @@ object DumpSorter {
   val splitsArrays = for {
     file <- files if file.isFile
     val source = Source.fromFile(file)
-    val splitsArray = source.mkString.split(" = cw.")     
+    val splitsArray = source.mkString.split("""\}
+\{""")//(" = cw.")     
   } yield {source.close(); (file.getName, splitsArray)}
 
   val filenameAndSplitStreams = for { //one stream per file, the tuple being (filename, split)
@@ -23,21 +24,21 @@ println(filenameAndSplitStreams)
 
   val steps = List("cw.visit(V", 
 		   "ScalaSignature", 
-                   "cw.visitField(", 
-                   """visitMethod(ACC_PUBLIC, "andThen",""", 
-                   """visitMethod(ACC_PUBLIC, "compose",""",
+                   """cw.visitField(""", 
+                   """visitMethod(ACC_PUBLIC + ACC_FINAL + ACC_STATIC, "andThen",""", 
+                   """visitMethod(ACC_PUBLIC + ACC_FINAL + ACC_STATIC, "compose",""",
                    """visitMethod(ACC_PUBLIC, "tupled",""", 
                    """visitMethod(ACC_PUBLIC, "curry",""", 
                    """visitMethod(ACC_PUBLIC, "curried",""", 
                    """visitMethod(ACC_PUBLIC, "productIterator",""", 
-                   """visitMethod(ACC_PUBLIC, "productElements",""", 
+                   """visitMethod(ACC_PUBLIC + ACC_DEPRECATED, "productElements",""", 
                    """visitMethod(ACC_PUBLIC, "x",""", 
                    """visitMethod(ACC_PUBLIC, "copy",""", 
                    """visitMethod(ACC_PUBLIC, "copy$default""", 
                    """visitMethod(ACC_PUBLIC, "hashCode",""", 
                    """visitMethod(ACC_PUBLIC, "toString",""", 
                    """visitMethod(ACC_PUBLIC, "equals",""", 
-                   """visitMethod(ACC_PUBLIC, "visitMethod(ACC_PUBLIC, "productPrefix",""", 
+                   """visitMethod(ACC_PUBLIC, "productPrefix",""", 
                    """visitMethod(ACC_PUBLIC, "productElement",""", 
                    """visitMethod(ACC_PUBLIC, "productArity",""", 
                    """visitMethod(ACC_PUBLIC, "canEqual",""", 
@@ -45,11 +46,12 @@ println(filenameAndSplitStreams)
                    """visitMethod(ACC_PUBLIC, "<init>",""")
 
 
-val listOfMaps:List[Map[java.lang.String,List[(java.lang.String, java.lang.String)]]]
-  = for{   //listOfMaps is a Map(step1 -> List(List(filename1,step1), List(filename2, step1)...)
-step <- steps
+val listOfMaps = for{   //listOfMaps is a Map(step1 -> List(List(filename1,step1), List(filename2, step1)...)
+  step <- steps
   val grouped = filenameAndSplitStreams.toList
-    .flatMap(n=>n).groupBy(o =>o._2.contains(step)).filter(p => p._1 == true)//groupBy groups by boolean, filter for hits
+    .flatMap(n=>n)
+    .groupBy(o =>o._2.contains(step))
+    .filter(p => p._1 == true)//groupBy groups by a boolean, filter for hits
     .map(q => (step->q._2)) //re-label the boolean key to the query, resulting in a map from query to a list of hits
 } yield {grouped}
 
@@ -63,9 +65,5 @@ val res = for {                        map <- listOfMaps
             Some(new PrintWriter("output/" + step + "/" + filename)).foreach{s => s.write(stepDump); s.close}
 
 }
-//res
-//println(res)
-//println(res)
-//"echo hello world" #> new java.io.File("example.txt") !
-//println(grouped.values.foreach(println))
+
 }

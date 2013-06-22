@@ -1,4 +1,5 @@
-visitMethod(ACC_PUBLIC, "productElement", "(I)Ljava/lang/Object;", null, null);
+
+mv = cw.visitMethod(ACC_PUBLIC, "productElement", "(I)Ljava/lang/Object;", null, null);
 mv.visitCode();
 mv.visitVarInsn(ILOAD, 1);
 mv.visitVarInsn(ISTORE, 2);
@@ -20,6 +21,3 @@ mv.visitMethodInsn(INVOKESPECIAL, "java/lang/IndexOutOfBoundsException", "<init>
 mv.visitInsn(ATHROW);
 mv.visitMaxs(3, 3);
 mv.visitEnd();
-}
-{
-mv

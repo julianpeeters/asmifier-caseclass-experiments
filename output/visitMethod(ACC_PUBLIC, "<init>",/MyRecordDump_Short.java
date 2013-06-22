@@ -1,4 +1,5 @@
-visitMethod(ACC_PUBLIC, "<init>", "(S)V", null, null);
+
+mv = cw.visitMethod(ACC_PUBLIC, "<init>", "(S)V", null, null);
 mv.visitCode();
 mv.visitVarInsn(ALOAD, 0);
 mv.visitVarInsn(ILOAD, 1);

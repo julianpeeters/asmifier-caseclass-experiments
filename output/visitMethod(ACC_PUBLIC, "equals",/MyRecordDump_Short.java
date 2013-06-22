@@ -1,4 +1,5 @@
-visitMethod(ACC_PUBLIC, "equals", "(Ljava/lang/Object;)Z", null, null);
+
+mv = cw.visitMethod(ACC_PUBLIC, "equals", "(Ljava/lang/Object;)Z", null, null);
 mv.visitCode();
 mv.visitVarInsn(ALOAD, 0);
 mv.visitVarInsn(ALOAD, 1);
@@ -47,6 +48,3 @@ mv.visitLabel(l5);
 mv.visitInsn(IRETURN);
 mv.visitMaxs(2, 6);
 mv.visitEnd();
-}
-{
-mv
