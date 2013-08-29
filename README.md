@@ -46,7 +46,7 @@ Results: Deduced steps for generating arbitary scala case classes with ASM's vis
     V - Steps for which there exists _variation_ between case class ASMifier outputs, depending on the type of the field
     R - Steps that are _required for instantiation_ (a bare minimum of "functionality")
     F - Steps that are necessary for the addition of _fields_ (i.e. value members)
-    G - Steps that for which there exists variation between case class ASMifier outputs, depending on if a class is generic
+    G - Steps that for which there exists variation between case class ASMifier outputs, if a class is _generic_
 
     a - Steps for classes that have 1 value member
     b - Steps for classes that have >1 value member
@@ -106,9 +106,9 @@ Nothing	Lscala/runtime/Nothing$;	null
 Any	Ljava/lang/Object;		null
 AnyRef	Ljava/lang/Object;		null
 //Non-primitive datatypes
-generic[]	Ljava/lang/Object;>; *	expanded type descriptor
+generic[]	Ljava/lang/Object;>; 	expanded type descriptor, e.g. Lscala/collection/immutable/List<Ljava/lang/Object;>;, null for all other data types besides generic classes.
 
-*with an extra >; for each level of nesting
+
 
 
 
