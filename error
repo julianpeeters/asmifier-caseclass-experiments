@@ -1,0 +1,92 @@
+[0m[[0minfo[0m] [0mLoading global plugins from /home/julianpeeters/.sbt/plugins[0m
+[0m[[0minfo[0m] [0mSet current project to asmifier-caseclass-experiments (in build file:/home/julianpeeters/asmifier-caseclass-experiments/)[0m
+[0m[[33mwarn[0m] [0mPotentially incompatible versions of dependencies of {file:/home/julianpeeters/asmifier-caseclass-experiments/}default-22f0e6:[0m
+[0m[[33mwarn[0m] [0m   org.scala-lang: 2.10.2, 2.10.0[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/julianpeeters/asmifier-caseclass-experiments/target/scala-2.10/classes...[0m
+[0m[[0minfo[0m] [0mRunning Main [0m
+[0m[[31merror[0m] [0m(Thread-10) java.io.IOException: Cannot run program "sbt": java.io.IOException: error=12, Cannot allocate memory[0m
+java.io.IOException: Cannot run program "sbt": java.io.IOException: error=12, Cannot allocate memory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:475)
+	at scala.sys.process.ProcessBuilderImpl$Simple.run(ProcessBuilderImpl.scala:68)
+	at scala.sys.process.ProcessImpl$SequentialProcess.runAndExitValue(ProcessImpl.scala:70)
+	at scala.sys.process.ProcessImpl$CompoundProcess$$anonfun$1.apply$mcV$sp(ProcessImpl.scala:93)
+	at scala.sys.process.ProcessImpl$Spawn$$anon$1.run(ProcessImpl.scala:22)
+Caused by: java.io.IOException: java.io.IOException: error=12, Cannot allocate memory
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:164)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:81)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:468)
+	at scala.sys.process.ProcessBuilderImpl$Simple.run(ProcessBuilderImpl.scala:68)
+	at scala.sys.process.ProcessImpl$SequentialProcess.runAndExitValue(ProcessImpl.scala:70)
+	at scala.sys.process.ProcessImpl$CompoundProcess$$anonfun$1.apply$mcV$sp(ProcessImpl.scala:93)
+	at scala.sys.process.ProcessImpl$Spawn$$anon$1.run(ProcessImpl.scala:22)
+[0m[[31mtrace[0m] [0mStack trace suppressed: run [34mlast compile:run[0m for the full output.[0m
+[0m[[31merror[0m] [0m(Thread-8) java.lang.RuntimeException: No exit code: process destroyed.[0m
+java.lang.RuntimeException: No exit code: process destroyed.
+	at scala.sys.process.ProcessImpl$CompoundProcess.exitValue(ProcessImpl.scala:87)
+	at scala.sys.process.ProcessImpl$SequentialProcess$$anonfun$runAndExitValue$1.apply(ProcessImpl.scala:71)
+	at scala.sys.process.ProcessImpl$SequentialProcess$$anonfun$runAndExitValue$1.apply(ProcessImpl.scala:71)
+	at scala.sys.process.ProcessImpl$CompoundProcess.runInterruptible(ProcessImpl.scala:105)
+	at scala.sys.process.ProcessImpl$SequentialProcess.runAndExitValue(ProcessImpl.scala:71)
+	at scala.sys.process.ProcessImpl$CompoundProcess$$anonfun$1.apply$mcV$sp(ProcessImpl.scala:93)
+	at scala.sys.process.ProcessImpl$Spawn$$anon$1.run(ProcessImpl.scala:22)
+[0m[[31mtrace[0m] [0mStack trace suppressed: run [34mlast compile:run[0m for the full output.[0m
+[0m[[31merror[0m] [0m(Thread-3) java.lang.RuntimeException: No exit code: process destroyed.[0m
+java.lang.RuntimeException: No exit code: process destroyed.
+	at scala.sys.process.ProcessImpl$CompoundProcess.exitValue(ProcessImpl.scala:87)
+	at scala.sys.process.ProcessImpl$PipedProcesses$$anonfun$runAndExitValue$3.apply$mcI$sp(ProcessImpl.scala:135)
+	at scala.sys.process.ProcessImpl$PipedProcesses$$anonfun$runAndExitValue$3.apply(ProcessImpl.scala:134)
+	at scala.sys.process.ProcessImpl$PipedProcesses$$anonfun$runAndExitValue$3.apply(ProcessImpl.scala:134)
+	at scala.sys.process.ProcessImpl$CompoundProcess.runInterruptible(ProcessImpl.scala:105)
+	at scala.sys.process.ProcessImpl$PipedProcesses.runAndExitValue(ProcessImpl.scala:142)
+	at scala.sys.process.ProcessImpl$CompoundProcess$$anonfun$1.apply$mcV$sp(ProcessImpl.scala:93)
+	at scala.sys.process.ProcessImpl$Spawn$$anon$1.run(ProcessImpl.scala:22)
+[0m[[31mtrace[0m] [0mStack trace suppressed: run [34mlast compile:run[0m for the full output.[0m
+[0m[[31merror[0m] [0m(Thread-1) java.lang.RuntimeException: No exit code: process destroyed.[0m
+java.lang.RuntimeException: No exit code: process destroyed.
+	at scala.sys.process.ProcessImpl$CompoundProcess.exitValue(ProcessImpl.scala:87)
+	at scala.sys.process.ProcessImpl$SequentialProcess$$anonfun$runAndExitValue$1.apply(ProcessImpl.scala:71)
+	at scala.sys.process.ProcessImpl$SequentialProcess$$anonfun$runAndExitValue$1.apply(ProcessImpl.scala:71)
+	at scala.sys.process.ProcessImpl$CompoundProcess.runInterruptible(ProcessImpl.scala:105)
+	at scala.sys.process.ProcessImpl$SequentialProcess.runAndExitValue(ProcessImpl.scala:71)
+	at scala.sys.process.ProcessImpl$CompoundProcess$$anonfun$1.apply$mcV$sp(ProcessImpl.scala:93)
+	at scala.sys.process.ProcessImpl$Spawn$$anon$1.run(ProcessImpl.scala:22)
+[0m[[31mtrace[0m] [0mStack trace suppressed: run [34mlast compile:run[0m for the full output.[0m
+[0m[[31merror[0m] [0m(run-main) java.lang.ExceptionInInitializerError[0m
+java.lang.ExceptionInInitializerError
+	at Main$delayedInit$body.apply(Main.scala:3)
+	at scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+	at scala.App$class.main(App.scala:71)
+	at Main$.main(Main.scala:2)
+	at Main.main(Main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+Caused by: java.lang.RuntimeException: No exit code: process destroyed.
+	at scala.sys.process.ProcessImpl$CompoundProcess.exitValue(ProcessImpl.scala:87)
+	at scala.sys.process.ProcessBuilderImpl$AbstractBuilder.$bang(ProcessBuilderImpl.scala:111)
+	at DumpGenerator$$anonfun$1.apply(DumpGenerator.scala:15)
+	at DumpGenerator$$anonfun$1.apply(DumpGenerator.scala:6)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at DumpGenerator$.<init>(DumpGenerator.scala:6)
+	at DumpGenerator$.<clinit>(DumpGenerator.scala)
+	at Main$delayedInit$body.apply(Main.scala:3)
+	at scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.App$$anonfun$main$1.apply(App.scala:71)
+	at scala.collection.immutable.List.foreach(List.scala:318)
+	at scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+	at scala.App$class.main(App.scala:71)
+	at Main$.main(Main.scala:2)
+	at Main.main(Main.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+[0m[[31mtrace[0m] [0mStack trace suppressed: run [34mlast compile:run[0m for the full output.[0m

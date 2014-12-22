@@ -11,9 +11,9 @@ Running the ASMifier on a variety of case classes in order to inspect the dump o
 
 ****Creation of table 1 and table 2 (tables of the steps for generating arbitary scala case classes with ASM's visitor API):
 create the bytecode-generating code by deleting any existing .class files, updating the case class with a value member of a different type(manually), then running the ASMifier on the new .class files
-`rm -r target/ && sbt run && java -cp lib/asm-all-4.1.jar org.objectweb.asm.util.ASMifier target/scala-2.9.1/classes/MyRecord.class>dump/MyRecord_anyref.java`
+`rm -r target/ && sbt run && java -cp lib/asm-all-4.1.jar org.objectweb.asm.util.ASMifier target/scala-2.10/classes/MyRecord.class>dump/MyRecord_anyref.java`
 
-`rm -r target/ && sbt run && java -cp lib/asm-all-4.1.jar org.objectweb.asm.util.ASMifier target/scala-2.9.1/classes/MyRecord\$.class>dump/MyRecordMODULE_anyref.java`
+`rm -r target/ && sbt run && java -cp lib/asm-all-4.1.jar org.objectweb.asm.util.ASMifier target/scala-2.10/classes/MyRecord\$.class>dump/MyRecordMODULE_anyref.java`
 
 As per recommendation of objectWEB, `diff` was used to compare the output of the ASMifier. Differences were seen to be restricted to visitor blocks (the steps of building a class with the visitor API), in a modular way, with some steps being modified, and others added or deleted.If removing a visitor step broke my ability to instatiate the class dynamically, then the step was said to be required.
 

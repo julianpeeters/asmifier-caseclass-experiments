@@ -1,33 +1,35 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(/home/julianpeeters/asmifier-caseclass-experiments/src/main/scala/DumpGenerator.scala)[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/DumpSorter.scala, /home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/models/MyRecord_List[List[List[Int]]].scala, /home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/DumpGenerator.scala, /home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/models/MyRecord.scala, /home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/Main.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mModified external sources: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/julianpeeters/asmifier-caseclass-experiments/src/main/scala/DumpGenerator.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/DumpSorter.scala, /home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/models/MyRecord_List[List[List[Int]]].scala, /home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/DumpGenerator.scala, /home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/models/MyRecord.scala, /home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/Main.scala)[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mInitially invalidated: Set(/home/julianpeeters/asmifier-caseclass-experiments/src/main/scala/DumpGenerator.scala)[0m
-[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/julianpeeters/asmifier-caseclass-experiments/target/scala-2.9.2/classes...[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 3a4ba4d6, interfacing (CompilerInterface) with Scala compiler version 2.9.2[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/DumpSorter.scala, /home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/models/MyRecord_List[List[List[Int]]].scala, /home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/DumpGenerator.scala, /home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/models/MyRecord.scala, /home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/Main.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 5 sources: invalidated sources (5) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 5 Scala sources to /home/julian/Dropbox/asmifier-caseclass-experiments/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.4[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 31b439a7, interfacing (CompilerInterface) with Scala compiler version 2.11.4[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
-[0m[[0mdebug[0m] [0m	-d[0m
-[0m[[0mdebug[0m] [0m	/home/julianpeeters/asmifier-caseclass-experiments/target/scala-2.9.2/classes[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
-[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk/jre/classes:/home/julianpeeters/.sbt/boot/scala-2.9.2/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes:/home/julian/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.4.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	/home/julianpeeters/asmifier-caseclass-experiments/target/scala-2.9.2/classes:/home/julianpeeters/asmifier-caseclass-experiments/lib/asm-all-4.1.jar[0m
-[0m[[33mwarn[0m] [0mthere were 1 deprecation warnings; re-run with -deprecation for details[0m
-[0m[[33mwarn[0m] [0mone warning found[0m
-[0m[[0mdebug[0m] [0mScala compilation took 9.692901806 s[0m
-[0m[[0mdebug[0m] [0mStep 2 changed sources and immdediate dependencies:[0m
-[0m[[0mdebug[0m] [0m	Set(/home/julianpeeters/asmifier-caseclass-experiments/src/main/scala/DumpGenerator.scala)[0m
-[0m[[0mdebug[0m] [0mNon-trivial strongly connected components: [0m
-[0m[[0mdebug[0m] [0m	[0m
-[0m[[0mdebug[0m] [0mStep 2 invalidated sources:[0m
-[0m[[0mdebug[0m] [0m	Set(/home/julianpeeters/asmifier-caseclass-experiments/src/main/scala/DumpGenerator.scala)[0m
+[0m[[0mdebug[0m] [0m	/home/julian/Dropbox/asmifier-caseclass-experiments/target/scala-2.11/classes:/home/julian/Dropbox/asmifier-caseclass-experiments/lib/asm-all-4.1.jar:/home/julian/.ivy2/cache/org.apache.avro/avro/jars/avro-1.7.4.jar:/home/julian/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.8.8.jar:/home/julian/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.8.8.jar:/home/julian/.ivy2/cache/org.xerial.snappy/snappy-java/bundles/snappy-java-1.0.4.1.jar:/home/julian/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.4.1.jar:/home/julian/.ivy2/cache/org.tukaani/xz/jars/xz-1.0.jar:/home/julian/.ivy2/cache/com.novus/salat-util_2.11/jars/salat-util_2.11-1.9.9.jar:/home/julian/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.2.jar:/home/julian/.ivy2/cache/org.scala-lang/scalap/jars/scalap-2.11.2.jar:/home/julian/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.2.jar:/home/julian/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.2.jar:/home/julian/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar:/home/julian/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.2.jar:/home/julian/.ivy2/cache/com.novus/salat-core_2.11/jars/salat-core_2.11-1.9.9.jar:/home/julian/.ivy2/cache/org.mongodb/casbah-core_2.11/jars/casbah-core_2.11-2.7.1.jar:/home/julian/.ivy2/cache/org.mongodb/casbah-commons_2.11/jars/casbah-commons_2.11-2.7.1.jar:/home/julian/.ivy2/cache/com.github.nscala-time/nscala-time_2.11/jars/nscala-time_2.11-1.0.0.jar:/home/julian/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.3.jar:/home/julian/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.2.jar:/home/julian/.ivy2/cache/org.mongodb/mongo-java-driver/jars/mongo-java-driver-2.12.1.jar:/home/julian/.ivy2/cache/org.mongodb/casbah-query_2.11/jars/casbah-query_2.11-2.7.1.jar:/home/julian/.ivy2/cache/org.json4s/json4s-native_2.11/jars/json4s-native_2.11-3.2.9.jar:/home/julian/.ivy2/cache/org.json4s/json4s-core_2.11/jars/json4s-core_2.11-3.2.9.jar:/home/julian/.ivy2/cache/org.json4s/json4s-ast_2.11/jars/json4s-ast_2.11-3.2.9.jar:/home/julian/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.6.jar:/home/julian/.ivy2/cache/org.slf4j/slf4j-simple/jars/slf4j-simple-1.6.4.jar[0m
+[0m[[33mwarn[0m] [0mthere were three deprecation warnings; re-run with -deprecation for details[0m
+[0m[[33mwarn[0m] [0mthere was one feature warning; re-run with -feature for details[0m
+[0m[[33mwarn[0m] [0mtwo warnings found[0m
+[0m[[0mdebug[0m] [0mScala compilation took 18.376869894 s[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/DumpSorter.scala, /home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/models/MyRecord_List[List[List[Int]]].scala, /home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/DumpGenerator.scala, /home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/models/MyRecord.scala, /home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/Main.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set(/home/julian/Dropbox/asmifier-caseclass-experiments/src/main/scala/Main.scala)[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m

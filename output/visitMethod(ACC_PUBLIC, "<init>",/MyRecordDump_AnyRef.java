@@ -3,7 +3,7 @@ mv = cw.visitMethod(ACC_PUBLIC, "<init>", "(Ljava/lang/Object;)V", null, null);
 mv.visitCode();
 mv.visitVarInsn(ALOAD, 0);
 mv.visitVarInsn(ALOAD, 1);
-mv.visitFieldInsn(PUTFIELD, "MyRecord", "x", "Ljava/lang/Object;");
+mv.visitFieldInsn(PUTFIELD, "models/MyRecord", "x", "Ljava/lang/Object;");
 mv.visitVarInsn(ALOAD, 0);
 mv.visitMethodInsn(INVOKESPECIAL, "java/lang/Object", "<init>", "()V");
 mv.visitVarInsn(ALOAD, 0);

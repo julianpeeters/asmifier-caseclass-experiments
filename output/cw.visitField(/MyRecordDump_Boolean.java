@@ -1,15 +1,53 @@
-[0m[[0minfo[0m] [0mLoading global plugins from /home/julianpeeters/.sbt/plugins[0m
-[0m[[0minfo[0m] [0mSet current project to default-22f0e6 (in build file:/home/julianpeeters/asmifier-caseclass-experiments/)[0m
-[0m[[32msuccess[0m] [0mTotal time: 0 s, completed Jun 21, 2013 11:33:40 PM[0m
-[0m[[0minfo[0m] [0mLoading global plugins from /home/julianpeeters/.sbt/plugins[0m
-[0m[[0minfo[0m] [0mSet current project to default-22f0e6 (in build file:/home/julianpeeters/asmifier-caseclass-experiments/)[0m
-[0m[[0minfo[0m] [0mUpdating {file:/home/julianpeeters/asmifier-caseclass-experiments/}default-22f0e6...[0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.2 ...[0m
+Loading /usr/share/sbt/bin/sbt-launch-lib.bash
+[0m[[0minfo[0m] [0mLoading global plugins from /home/julian/.sbt/0.13/plugins[0m
+[0m[[0minfo[0m] [0mLoading project definition from /home/julian/Dropbox/asmifier-caseclass-experiments/project[0m
+[0m[[0minfo[0m] [0mSet current project to asmifier-caseclass-experiments (in build file:/home/julian/Dropbox/asmifier-caseclass-experiments/)[0m
+[0m[[32msuccess[0m] [0mTotal time: 0 s, completed Dec 21, 2014 4:14:54 PM[0m
+Loading /usr/share/sbt/bin/sbt-launch-lib.bash
+[0m[[0minfo[0m] [0mLoading global plugins from /home/julian/.sbt/0.13/plugins[0m
+[0m[[0minfo[0m] [0mLoading project definition from /home/julian/Dropbox/asmifier-caseclass-experiments/project[0m
+[0m[[0minfo[0m] [0mSet current project to asmifier-caseclass-experiments (in build file:/home/julian/Dropbox/asmifier-caseclass-experiments/)[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/julian/Dropbox/asmifier-caseclass-experiments/}asmifier-caseclass-experiments...[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.4 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.apache.avro#avro;1.7.4 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-core-asl;1.8.8 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-mapper-asl;1.8.8 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.3 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.xerial.snappy#snappy-java;1.0.4.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-compress;1.4.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.tukaani#xz;1.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.6.4 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.novus#salat_2.11;1.9.9 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.novus#salat-util_2.11;1.9.9 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scalap;2.11.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.novus#salat-core_2.11;1.9.9 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.mongodb#casbah-core_2.11;2.7.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.mongodb#casbah-commons_2.11;2.7.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.github.nscala-time#nscala-time_2.11;1.0.0 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.3 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.2 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.mongodb#mongo-java-driver;2.12.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.mongodb#casbah-query_2.11;2.7.1 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-native_2.11;3.2.9 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-core_2.11;3.2.9 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.json4s#json4s-ast_2.11;3.2.9 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving com.thoughtworks.paranamer#paranamer;2.6 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-simple;1.6.4 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.11.4 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.11.4 ...[0m
+M[2K[0m[[0minfo[0m] [0mResolving jline#jline;2.12 ...[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
-[0m[[0minfo[0m] [0mCompiling 4 Scala sources to /home/julianpeeters/asmifier-caseclass-experiments/target/scala-2.9.2/classes...[0m
-[0m[[33mwarn[0m] [0mthere were 3 deprecation warnings; re-run with -deprecation for details[0m
-[0m[[33mwarn[0m] [0mone warning found[0m
-[0m[[32msuccess[0m] [0mTotal time: 14 s, completed Jun 21, 2013 11:34:00 PM[0m
+[0m[[0minfo[0m] [0mCompiling 5 Scala sources to /home/julian/Dropbox/asmifier-caseclass-experiments/target/scala-2.11/classes...[0m
+[0m[[33mwarn[0m] [0mthere were three deprecation warnings; re-run with -deprecation for details[0m
+[0m[[33mwarn[0m] [0mthere was one feature warning; re-run with -feature for details[0m
+[0m[[33mwarn[0m] [0mtwo warnings found[0m
+[0m[[32msuccess[0m] [0mTotal time: 62 s, completed Dec 21, 2014 4:16:24 PM[0m
+package asm.models;
 import java.util.*;
 import org.objectweb.asm.*;
 import org.objectweb.asm.attrs.*;
@@ -22,11 +60,11 @@ FieldVisitor fv;
 MethodVisitor mv;
 AnnotationVisitor av0;
 
-cw.visit(V1_5, ACC_PUBLIC + ACC_SUPER, "MyRecord", null, "java/lang/Object", new String[] { "scala/Product", "scala/Serializable" });
+cw.visit(V1_6, ACC_PUBLIC + ACC_SUPER, "models/MyRecord", null, "java/lang/Object", new String[] { "scala/Product", "scala/Serializable" });
 
 {
 av0 = cw.visitAnnotation("Lscala/reflect/ScalaSignature;", true);
-av0.visit("bytes", "\u0006\u0001}4A!\u0001\u0002A\u000b\u0009AQ*\u001f*fG>\u0014HMC\u0001\u0004\u0003\u001daT-\u001c9usz\u001a\u0001aE\u0003\u0001\r9!r\u0003\u0005\u0002\u0008\u00195\u0009\u0001B\u0003\u0002\n\u0015\u0005!A.\u00198h\u0015\u0005Y\u0011\u0001\u00026bm\u0006L!!\u0004\u0005\u0003\r=\u0013'.Z2u!\u0009y!#D\u0001\u0011\u0015\u0005\u0009\u0012!B:dC2\u000c\u0017BA\n\u0011\u0005-\u00196-\u00197b\u001f\nTWm\u0019;\u0011\u0005=)\u0012B\u0001\u000c\u0011\u0005\u001d\u0001&o\u001c3vGR\u0004\"a\u0004\r\n\u0005e\u0001\"\u0001D*fe&\u000cG.\u001b>bE2,\u0007\u0002C\u000e\u0001\u0005+\u0007I\u0011\u0001\u000f\u0002\u0003a,\u0012!\u0008\u0009\u0003\u001fyI!a\u0008\u0009\u0003\u000f\u0009{w\u000e\\3b]\"A\u0011\u0005\u0001B\u0009B\u0003%Q$\u0001\u0002yA!)1\u0005\u0001C\u0001I\u00051A(\u001b8jiz\"\"!J\u0014\u0011\u0005\u0019\u0002Q\"\u0001\u0002\u0009\u000bm\u0011\u0003\u0019A\u000f\u0009\u000f%\u0002\u0011\u0011!C\u0001U\u0005!1m\u001c9z)\u0009)3\u0006C\u0004\u001cQA\u0005\u0009\u0019A\u000f\u0009\u000f5\u0002\u0011\u0013!C\u0001]\u0005q1m\u001c9zI\u0011,g-Y;mi\u0012\nT#A\u0018+\u0005u\u00014&A\u0019\u0011\u0005I:T\"A\u001a\u000b\u0005Q*\u0014!C;oG\",7m[3e\u0015\u00091\u0004#\u0001\u0006b]:|G/\u0019;j_:L!\u0001O\u001a\u0003#Ut7\r[3dW\u0016$g+\u0019:jC:\u001cW\rC\u0003;\u0001\u0011\u00053(\u0001\u0005iCND7i\u001c3f)\u0005a\u0004CA\u0008>\u0013\u0009q\u0004CA\u0002J]RDQ\u0001\u0011\u0001\u0005B\u0005\u000b\u0001\u0002^8TiJLgn\u001a\u000b\u0002\u0005B\u00111I\u0012\u0008\u0003\u001f\u0011K!!\u0012\u0009\u0002\rA\u0013X\rZ3g\u0013\u00099\u0005J\u0001\u0004TiJLgn\u001a\u0006\u0003\u000bBAQA\u0013\u0001\u0005B-\u000ba!Z9vC2\u001cHCA\u000fM\u0011\u001di\u0015*!AA\u00029\u000b1\u0001\u001f\u00132!\u0009yq*\u0003\u0002Q!\u0009\u0019\u0011I\\=\u0009\u000bI\u0003A\u0011I*\u0002\u001bA\u0014x\u000eZ;diB\u0013XMZ5y+\u0005!\u0006CA\u0004V\u0013\u00099\u0005\u0002C\u0003X\u0001\u0011\u0005\u0003,\u0001\u0007qe>$Wo\u0019;Be&$\u00180F\u0001=\u0011\u0015Q\u0006\u0001\"\u0011\\\u00039\u0001(o\u001c3vGR,E.Z7f]R$\"A\u0014/\u0009\u000f5K\u0016\u0011!a\u0001y!)a\u000c\u0001C!?\u0006A1-\u00198FcV\u000cG\u000e\u0006\u0002\u001eA\"9Q*XA\u0001\u0002\u0004qua\u00022\u0003\u0003\u0003E)aY\u0001\u0009\u001bf\u0014VmY8sIB\u0011a\u0005\u001a\u0004\u0008\u0003\u0009\u0009\u0009\u0011#\u0002f'\u0011!gMD\u000c\u0011\u0009\u001dTW$J\u0007\u0002Q*\u0011\u0011\u000eE\u0001\u0008eVtG/[7f\u0013\u0009Y\u0007NA\u0009BEN$(/Y2u\rVt7\r^5p]FBQa\u00093\u0005\u00025$\u0012a\u0019\u0005\u0006\u0001\u0012$)e\u001c\u000b\u0002)\"9\u0011\u000fZA\u0001\n\u0003\u0013\u0018!B1qa2LHCA\u0013t\u0011\u0015Y\u0002\u000f1\u0001\u001e\u0011\u001d)H-!A\u0005\u0002Z\u000cq!\u001e8baBd\u0017\u0010\u0006\u0002xuB\u0019q\u0002_\u000f\n\u0005e\u0004\"AB(qi&|g\u000eC\u0003|i\u0002\u0007Q%A\u0002yIABQ! 3\u0005\u0012y\u000c1B]3bIJ+7o\u001c7wKR\u0009a\u0001");
+av0.visit("bytes", "\u0006\u0001\u0005\ra\u0001B\u0001\u0003\u0001\u0016\u0011\u0001\"T=SK\u000e|'\u000f\u001a\u0006\u0002\u0007\u00051Qn\u001c3fYN\u001c\u0001a\u0005\u0003\u0001\r1y\u0001CA\u0004\u000b\u001b\u0005A!\"A\u0005\u0002\u000bM\u001c\u0017\r\\1\n\u0005-A!AB!osJ+g\r\u0005\u0002\u0008\u001b%\u0011a\u0002\u0003\u0002\u0008!J|G-^2u!\u00099\u0001#\u0003\u0002\u0012\u0011\u0009a1+\u001a:jC2L'0\u00192mK\"A1\u0003\u0001BK\u0002\u0013\u0005A#A\u0001y+\u0005)\u0002CA\u0004\u0017\u0013\u00099\u0002BA\u0004C_>dW-\u00198\u0009\u0011e\u0001!\u0011#Q\u0001\nU\u0009!\u0001\u001f\u0011\u0009\u000bm\u0001A\u0011\u0001\u000f\u0002\rqJg.\u001b;?)\u0009ir\u0004\u0005\u0002\u001f\u00015\u0009!\u0001C\u0003\u00145\u0001\u0007Q\u0003C\u0004\"\u0001\u0005\u0005I\u0011\u0001\u0012\u0002\u0009\r|\u0007/\u001f\u000b\u0003;\rBqa\u0005\u0011\u0011\u0002\u0003\u0007Q\u0003C\u0004&\u0001E\u0005I\u0011\u0001\u0014\u0002\u001d\r|\u0007/\u001f\u0013eK\u001a\u000cW\u000f\u001c;%cU\u0009qE\u000b\u0002\u0016Q-\n\u0011\u0006\u0005\u0002+_5\u00091F\u0003\u0002-[\u0005IQO\\2iK\u000e\\W\r\u001a\u0006\u0003]!\u0009!\"\u00198o_R\u000cG/[8o\u0013\u0009\u00014FA\u0009v]\u000eDWmY6fIZ\u000b'/[1oG\u0016DqA\r\u0001\u0002\u0002\u0013\u00053'A\u0007qe>$Wo\u0019;Qe\u00164\u0017\u000e_\u000b\u0002iA\u0011QGO\u0007\u0002m)\u0011q\u0007O\u0001\u0005Y\u0006twMC\u0001:\u0003\u0011Q\u0017M^1\n\u0005m2$AB*ue&tw\rC\u0004>\u0001\u0005\u0005I\u0011\u0001 \u0002\u0019A\u0014x\u000eZ;di\u0006\u0013\u0018\u000e^=\u0016\u0003}\u0002\"a\u0002!\n\u0005\u0005C!aA%oi\"91\u0009AA\u0001\n\u0003!\u0015A\u00049s_\u0012,8\r^#mK6,g\u000e\u001e\u000b\u0003\u000b\"\u0003\"a\u0002$\n\u0005\u001dC!aA!os\"9\u0011JQA\u0001\u0002\u0004y\u0014a\u0001=%c!91\nAA\u0001\n\u0003b\u0015a\u00049s_\u0012,8\r^%uKJ\u000cGo\u001c:\u0016\u00035\u00032AT)F\u001b\u0005y%B\u0001)\u0009\u0003)\u0019w\u000e\u001c7fGRLwN\\\u0005\u0003%>\u0013\u0001\"\u0013;fe\u0006$xN\u001d\u0005\u0008)\u0002\u0009\u0009\u0011\"\u0001V\u0003!\u0019\u0017M\\#rk\u0006dGCA\u000bW\u0011\u001dI5+!AA\u0002\u0015Cq\u0001\u0017\u0001\u0002\u0002\u0013\u0005\u0013,\u0001\u0005iCND7i\u001c3f)\u0005y\u0004bB.\u0001\u0003\u0003%\u0009\u0005X\u0001\u0009i>\u001cFO]5oOR\u0009A\u0007C\u0004_\u0001\u0005\u0005I\u0011I0\u0002\r\u0015\u000cX/\u00197t)\u0009)\u0002\rC\u0004J;\u0006\u0005\u0009\u0019A#\u0008\u000f\u0009\u0014\u0011\u0011!E\u0001G\u0006AQ*\u001f*fG>\u0014H\r\u0005\u0002\u001fI\u001a9\u0011AAA\u0001\u0012\u0003)7c\u00013g\u001fA!qM[\u000b\u001e\u001b\u0005A'BA5\u0009\u0003\u001d\u0011XO\u001c;j[\u0016L!a\u001b5\u0003#\u0005\u00137\u000f\u001e:bGR4UO\\2uS>t\u0017\u0007C\u0003\u001cI\u0012\u0005Q\u000eF\u0001d\u0011\u001dYF-!A\u0005FqCq\u0001\u001d3\u0002\u0002\u0013\u0005\u0015/A\u0003baBd\u0017\u0010\u0006\u0002\u001ee\")1c\u001ca\u0001+!9A\u000fZA\u0001\n\u0003+\u0018aB;oCB\u0004H.\u001f\u000b\u0003mf\u00042aB<\u0016\u0013\u0009A\u0008B\u0001\u0004PaRLwN\u001c\u0005\u0008uN\u000c\u0009\u00111\u0001\u001e\u0003\rAH\u0005\r\u0005\u0008y\u0012\u000c\u0009\u0011\"\u0003~\u0003-\u0011X-\u00193SKN|GN^3\u0015\u0003y\u0004\"!N@\n\u0007\u0005\u0005aG\u0001\u0004PE*,7\r\u001e");
 av0.visitEnd();
 }
 // ATTRIBUTE ScalaSig

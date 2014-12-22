@@ -2,7 +2,9 @@
 mv = cw.visitMethod(ACC_PUBLIC, "copy$default$1", "()Lscala/runtime/Null$;", null, null);
 mv.visitCode();
 mv.visitVarInsn(ALOAD, 0);
-mv.visitMethodInsn(INVOKEVIRTUAL, "MyRecord", "x", "()Lscala/runtime/Null$;");
+mv.visitMethodInsn(INVOKEVIRTUAL, "models/MyRecord", "x", "()Lscala/runtime/Null$;");
+mv.visitInsn(POP);
+mv.visitInsn(ACONST_NULL);
 mv.visitInsn(ARETURN);
 mv.visitMaxs(1, 1);
 mv.visitEnd();

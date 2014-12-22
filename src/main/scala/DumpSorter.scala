@@ -2,9 +2,9 @@ import java.io._
 import scala.io._
 
 object DumpSorter {
-  case class dynamicClass
-  case class cls
-  case class module
+  case class dynamicClass()
+  case class cls()
+  case class module()
   
 
   val directory = new File("entire_dumps")
